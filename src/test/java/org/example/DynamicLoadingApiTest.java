@@ -25,7 +25,6 @@ public class DynamicLoadingApiTest {
      5. Сохранение трассировочных данных при успешном выполнении
      */
 
-
     @BeforeEach
     void createContextAndPage() {
         playwright = Playwright.create();
